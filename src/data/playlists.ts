@@ -1,0 +1,58 @@
+import type { Playlist } from '@/types'
+
+export const playlists: Playlist[] = [
+  {
+    id: 'playlist-1',
+    title: 'Late Night Drives',
+    description: 'Perfect synthwave and chillwave for cruising under the city lights.',
+    imageUrl: 'https://picsum.photos/seed/playlist1/400/400',
+    songIds: ['song-8', 'song-10', 'song-5', 'song-12', 'song-9', 'song-6'],
+    createdBy: 'system',
+    isUserCreated: false,
+  },
+  {
+    id: 'playlist-2',
+    title: 'Electronic Essentials',
+    description: 'A curated mix of the best electronic tracks across all genres.',
+    imageUrl: 'https://picsum.photos/seed/playlist2/400/400',
+    songIds: ['song-15', 'song-25', 'song-16', 'song-26', 'song-17', 'song-27', 'song-3'],
+    createdBy: 'system',
+    isUserCreated: false,
+  },
+  {
+    id: 'playlist-3',
+    title: 'Chill Vibes',
+    description: 'Slow down and drift away with these dreamy, ambient sounds.',
+    imageUrl: 'https://picsum.photos/seed/playlist3/400/400',
+    songIds: ['song-1', 'song-7', 'song-2', 'song-6', 'song-18', 'song-22'],
+    createdBy: 'system',
+    isUserCreated: false,
+  },
+  {
+    id: 'playlist-4',
+    title: 'Soul & Indie Pop Hits',
+    description: 'Heartfelt indie pop and soulful R&B for any mood.',
+    imageUrl: 'https://picsum.photos/seed/playlist4/400/400',
+    songIds: ['song-18', 'song-19', 'song-20', 'song-21', 'song-22', 'song-23', 'song-24'],
+    createdBy: 'system',
+    isUserCreated: false,
+  },
+  {
+    id: 'playlist-5',
+    title: 'Retro Wave',
+    description: '80s-inspired synth sounds reimagined for the modern era.',
+    imageUrl: 'https://picsum.photos/seed/playlist5/400/400',
+    songIds: ['song-12', 'song-13', 'song-14', 'song-8', 'song-9', 'song-11'],
+    createdBy: 'system',
+    isUserCreated: false,
+  },
+  {
+    id: 'playlist-6',
+    title: 'Dream State',
+    description: 'Ethereal and atmospheric music to get lost in.',
+    imageUrl: 'https://picsum.photos/seed/playlist6/400/400',
+    songIds: ['song-1', 'song-2', 'song-3', 'song-4', 'song-5', 'song-15'],
+    createdBy: 'system',
+    isUserCreated: false,
+  },
+]
